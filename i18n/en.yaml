@@ -1,23 +1,81 @@
 ## Header
+- id: "logo_alt"
+  translation: "Luka's logo"
+
 - id: "logo_text1"
   translation: "Luka"
 
 - id: "logo_text2"
   translation: "Šulc"
 
+## Meta tags
+- id: "meta_title"
+  translation: "Luka Šulc | Software Engineer"
+- id: "meta_description"
+  translation: "This is the personal site of Luka Šulc, a software engineer with a passion for web development. He has 5+ years of experience in building full stack applications using modern technologies such as Angular and Java Spring Boot."
+- id: "meta_keywords"
+  translation: "hugo, theme, bootstrap, luka šulc, personal site, portfolio, single page application"
+- id: "meta_author"
+  translation: "Luka Šulc"
+- id: "meta_image"
+  translation: "/img/general/og-image.jpg"
+
+## General
+- id: "skipToMainContent"
+  translation: "Skip to main content"
+
+- id: "toggle_navigation"
+  translation: "Toggle navigation"
+
 ## Footer
 - id: "footer_notice"
-  translation: ""
+  translation: "© Adritian. Free Hugo theme by Adrián Moreno Peña."
 
 - id: "language"
   translation: "Language"
+
+- id: "theme_light"
+  translation: "☀️ Light"
+- id: "theme_dark"
+  translation: "🌑 Dark"
+- id: "theme_auto"
+  translation: "✨ Auto"
+
+## Search
+- id: "search_tags_label"
+  translation: "Tags"
+- id: "search_categories_label"
+  translation: "Categories"
+- id: "search_filter_by_tag"
+  translation: "Filter search results by tag"
+- id: "search_filter_by_category"
+  translation: "Filter search results by category"
+- id: "search_title"
+  translation: "Search the Site"
+- id: "search_placeholder"
+  translation: "Type to search..."
+- id: "search_results_heading"
+  translation: "Matching pages"
+- id: "search_min_chars"
+  translation: "Please enter at least 2 characters to search"
+- id: "search_no_matches"
+  translation: "No matches found"
+- id: "search_loading"
+  translation: "Loading..."
+- id: "search_error_generic"
+  translation: "There was a problem with search. Please try again later."
+- id: "search_untitled"
+  translation: "Untitled"
+- id: "search_no_preview"
+  translation: "No preview available"
+
 
 ## Homepage head title
 - id: "head_title"
   translation: "Luka Šulc | Software Engineer"
 
 - id: "head_description"
-  translation: "Luka Šulc is a software engineer with a passion for web development. He has 4 years of experience in building full stack applications using modern technologies such as Angular and Java Spring Boot."
+  translation: "Luka Šulc is a software engineer with a passion for web development. He has 5+ years of experience in building full stack applications using modern technologies such as Angular and Java Spring Boot."
 
 ## Homepage showcase
 - id: "showcase_title"
@@ -27,7 +85,7 @@
   translation: "Software Engineer"
 
 - id: "showcase_description"
-  translation: "I'm a Computer Scientist graduated from University of Zagreb. My academic experience revolved around Machine Learning and Artificial Intelligence as well as Robotics and Optimization.<br>Professionally, I've taken another path working as a Software Engineer. I've worked in the financial sector as an Angular & Spring Boot Developer and I'm currently working as a Full Stack Developer at <a target='_blank' href='https://suprabit.eu/'>Suprabit</a>.<br> My volunteering experience in <a target='_blank' href='https://www.linkedin.com/company/esn-croatia'>Erasmus Student Network</a> combined with one semester abroad helped me develop problem solving skills, inclusive mindset and proficiency in English."
+  translation: "I'm a Computer Scientist graduated from University of Zagreb. My academic experience revolved around Machine Learning and Artificial Intelligence as well as Robotics and Optimization.<br>Professionally, I've taken another path working as a Software Engineer. I've worked in the financial and building automation sectors as an Angular & Java Spring Developer.<br> My volunteering experience in <a target='_blank' href='https://www.linkedin.com/company/erasmus-student-network/'>Erasmus Student Network</a> combined with one semester abroad helped me develop problem solving skills, inclusive mindset and proficiency in English."
 
 - id: "showcase_button"
   translation: "LinkedIn"
@@ -35,23 +93,41 @@
   ## not visible but used for accessibility
 - id: "showcase_image_alt"
   translation: "A picture of Luka Šulc, Software Engineer"
+- id: "toggle_theme"
+  translation: "Toggle theme"
 
-## Homepage education
-- id: "education_title"
-  translation: "Education"
+## Homepage about
+# - id: "about_title"
+#   translation: "Who am I?"
+
+# - id: "about_content"
+#   translation:  '<p class="lead">
+#       Here you can add some information about you. A small excerpt that describes 
+#       your experience, for example.   
+#       <br/>
+#       You explain something about your academic/study background, as well as your
+#       preferred areas of work.
+#       </p>
+#       <p>The content for this section is defined in the <code>i18n/en.yaml</code> file, 
+#       in the <code>about_content</code> item.
+#       </p>'
+
+# - id: "about_button"
+#   translation: "About Me"
+d
 
 ## Homepage experience
 - id: "experience_title"
   translation: "Experience"
 
 - id: "experience_description"
-  translation: "I have 7 years of coding experience with 3.5 years of professional development. My main technologies are Angular and Spring Boot but I also have experience with Python, Django, C and ROS."
+  translation: "I have 9 years of coding experience with 5+ years of professional development. My main technologies are Angular and Java Spring Boot. My experience additionaly extends to Python, Django, C and ROS."
 
 - id: "experience_button"
   translation: "LinkedIn"
 
 - id: "experience_button_url"
-  translation: "https://www.linkedin.com/in/adrianmoreno/"
+  translation: "https://www.linkedin.com/in/lukasulc/"
 
 - id: "experience_button2"
   translation: "GitHub"
@@ -65,12 +141,178 @@
 - id: "experience_button3_url"
   translation: "/experience"
 
+# ## Homepage client & work
+# - id: "client_work_title"
+#   translation: "Clients & Work"
+
+# ## Homepage newsletter
+# - id: "newsletter_title"
+#   translation: "Newsletter"
+
+# - id: "newsletter_button"
+#   translation: "Subscribe"
+
+# - id: "newsletter_placeholder"
+#   translation: "Your email"
+
+# - id: "newsletter_success_message"
+#   translation: "Thank you for subscribing to my newsletter!"
+
+# - id: "newsletter_error_message"
+#   translation: "An error occurred. Please try again."
+
+# - id: "newsletter_note"
+#   translation: "We'll never share your email with anyone else."
+
+# ## Homepage testimonials
+# - id: "testimonials_title"
+#   translation: "Testimonials"
+
+# ## Homepage contact
+# - id: "contact_title"
+#   translation: "Contact"
+
+# - id: "contact_button"
+#   translation: "Send message"
+
+# - id: "contact_form_name"
+#   translation: "Full Name"
+
+# - id: "contact_form_email"
+#   translation: "Email Address"
+
+# - id: "contact_form_message"
+#   translation: "Type Your Message Here"
+
+# - id: "contact_phone_title"
+#   translation: "Phone Number"
+
+# - id: "contact_phone_number"
+#   translation: "Defined in i18n/en.yaml (contact_phone_number)"
+
+# - id: "contact_email_title"
+#   translation: "Email"
+
+# - id: "contact_email_email"
+#   translation: 'Defined in i18n/en.yaml (contact_email_email)'
+
+# - id: "contact_address_title"
+#   translation: "Address"
+
+# - id: "contact_address_address"
+#   translation: "Defined in i18n/en.yaml (contact_address_address)"
+
+# - id: "contact_button"
+#   translation: "Send Message"
+
 ## Blog
 - id: "read_more"
   translation: "Read more"
 
 - id: "published_on"
-  translation: "Published on"
+  translation: "Published on "
 
 - id: "continue_reading"
   translation: "Continue reading"
+
+## Blog Stats (for list-cards layout)
+- id: "blog_stats_posts"
+  translation: "Posts"
+
+- id: "blog_stats_last_updated"
+  translation: "Last updated"
+
+- id: "blog_stats_first_post"
+  translation: "First post"
+
+- id: "blog_stats_topics"
+  translation: "Topics"
+
+- id: "blog_stats_latest_post"
+  translation: "Latest post"
+
+## 404 Page
+- id: "404_title"
+  translation: "Page not found"
+- id: "404_description"  
+  translation: "Sorry, but the page you were looking for could not be found."
+- id: "404_button"
+  translation: "Back to homepage"
+
+## Related Posts
+- id: "related_posts"
+  translation: "Related Posts"
+
+## Social Sharing
+- id: "share_this_post"
+  translation: "Share this post"
+- id: "share_on_twitter"
+  translation: "Share on Twitter"
+- id: "share_on_linkedin"
+  translation: "Share on LinkedIn"
+- id: "share_on_facebook"
+  translation: "Share on Facebook"
+- id: "share_via_email"
+  translation: "Share via Email"
+- id: "share_twitter_label"
+  translation: "Twitter"
+- id: "share_linkedin_label"
+  translation: "LinkedIn"
+- id: "share_facebook_label"
+  translation: "Facebook"
+- id: "share_email_label"
+  translation: "Email"
+- id: "share_on_bluesky"
+  translation: "Share on Bluesky"
+- id: "share_bluesky_label"
+  translation: "Bluesky"
+- id: "share_on_mastodon"
+  translation: "Share on Mastodon"
+- id: "share_mastodon_label"
+  translation: "Mastodon"
+
+## Table of Contents
+- id: "table_of_contents"
+  translation: "Table of Contents"
+
+## Comments
+- id: "comments"
+  translation: "Comments"
+
+## Reading time and metadata
+- id: "min_read"
+  translation: "min read"
+- id: "last_updated"
+  translation: "Updated"
+
+## Taxonomy
+- id: "categories"
+  translation: "Categories"
+- id: "post_singular"
+  translation: "post"
+- id: "post_plural"
+  translation: "posts"
+- id: "tags"
+  translation: "Tags"
+- id: "authors"
+  translation: "Authors"
+- id: "series"
+  translation: "Series"
+- id: "author_posts"
+  translation: "Posts by this author"
+- id: "series_posts"
+  translation: "Series posts"
+- id: "series_part"
+  translation: "Part"
+- id: "recent_posts"
+  translation: "Recent Posts"
+- id: "popular_tags"
+  translation: "Popular Tags"
+- id: "view_all_tags"
+  translation: "View all tags"
+
+- id: "primary_navigation"
+  translation: "Primary navigation"
+
+- id: "footer_navigation"
+  translation: "Footer navigation"
